@@ -1,38 +1,38 @@
 # 3D-TFG-VICADEL
-# Trabajo Final De Grado - Vicadel
+# Final Degree Project - Vicadel
 
-¡Hola! Bienvenidos al repositorio de código e información pertinente sobre el Trabajo Final De Grado de Vicadel. Aquí encontrarás todo el código necesario para la realización y programación de la placa ESP32, la cual es fundamental para el funcionamiento de la prótesis de brazo impresa en 3D.
+Hello! Welcome to the code repository and relevant information about Vicadel's Final Degree Project. Here you will find all the necessary code for the implementation and programming of the ESP32 board, which is essential for the operation of the 3D-printed arm prosthesis.
 
-En este repositorio se incluyen diferentes archivos, tales como:
-- Código inicial para la prueba de los servomotores.
-- Código final que integra el funcionamiento mediante el sensor EMG Aoutecen.
-- Todos los códigos utilizados para mejoras y pruebas.
+# This repository includes various files, such as:
+- Initial code for testing the servomotors.
+- Final code that integrates the operation through the Aoutecen EMG sensor.
+- All the codes used for improvements and tests.
 
-El objetivo es proporcionar una guía completa y detallada que facilite la comprensión y utilización de este proyecto. Espero que disfruten del código y encuentren toda la información perfectamente clara y útil para sus necesidades.
+The objective is to provide a complete and detailed guide that facilitates the understanding and use of this project. I hope you enjoy the code and find all the information perfectly clear and useful for your needs.
 
-## Estructura del Repositorio
+# Repository Structure
 
-- **Código Inicial:** Archivos con ejemplos básicos para la prueba de servomotores.
-- **Código Final:** Código optimizado y listo para el uso con el sensor EMG Aoutecen.
-- **Mejoras y Pruebas:** Diversos archivos que muestran las iteraciones y mejoras realizadas durante el desarrollo del proyecto.
+- Initial Code: Files with basic examples for testing servomotors.
+- Final Code: Optimized code ready for use with the Aoutecen EMG sensor.
+- Improvements and Tests: Various files showing the iterations and improvements made during the project development.
 
-## Instrucciones de Uso
+## Usage Instructions
 
-1. **Configuración del ESP32:**
-   - Descarga e instala el software de Arduino.
-   - Configura el entorno para el ESP32 y sube el código correspondiente.
+1. ESP32 Setup:
+   - Download and install the Arduino software.
+   - Configure the environment for the ESP32 and upload the corresponding code.
 
-2. **Conexión de los Sensores EMG:**
-   - Conecta los sensores EMG a los pines analógicos del ESP32.
-   - Asegura una correcta colocación de los electrodos en los músculos adecuados.
+2. Connecting the EMG Sensors:
+   - Connect the EMG sensors to the analog pins of the ESP32.
+   - Ensure proper placement of the electrodes on the appropriate muscles.
 
-3. **Pruebas y Ajustes:**
-   - Realiza pruebas iniciales para verificar la respuesta de la prótesis.
-   - Ajusta la tensión de los cables y los parámetros del código para mejorar la precisión y respuesta del sistema.
+3. Testing and Adjustments:
+   - Perform initial tests to verify the prosthesis response.
+   - Adjust the tension of the cables and the code parameters to improve the system's accuracy and response.
 
-Para más detalles, consulta los archivos y la documentación adjunta en este repositorio. Si tienes alguna pregunta o necesitas asistencia adicional, puede contactarme a vicadel@alumni.uv.es
+For more details, consult the attached files and documentation in this repository. If you have any questions or need additional assistance, you can contact me at vicadel@alumni.uv.es.
 
-¡Espero que disfrutes explorando y utilizando este proyecto tanto como yo disfruté desarrollándolo!
+I hope you enjoy exploring and using this project as much as I enjoyed developing it!
 
 ---
 Vicadel
