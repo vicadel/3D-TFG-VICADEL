@@ -1,7 +1,7 @@
 # 3D-TFG-VICADEL
 # Trabajo Final De Grado - Vicadel
 
-¡Hola! Bienvenidos al repositorio de código e información pertinente sobre el Trabajo Final De Grado de Vicadel. Aquí encontrarás todo el código necesario para la realización y programación de la placa ESP32, la cual es fundamental para el funcionamiento de una prótesis de brazo impresa en 3D y controlada mediante un microcontrolador ESP32.
+¡Hola! Bienvenidos al repositorio de código e información pertinente sobre el Trabajo Final De Grado de Vicadel. Aquí encontrarás todo el código necesario para la realización y programación de la placa ESP32, la cual es fundamental para el funcionamiento de la prótesis de brazo impresa en 3D.
 
 En este repositorio se incluyen diferentes archivos, tales como:
 - Código inicial para la prueba de los servomotores.
