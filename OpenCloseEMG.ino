@@ -2,7 +2,7 @@
 //by Victor Alonso (vicadel@alumni.uv.es)
 //Valencia (Spain)
 //July 2024
-//Part of TFG 3D Prostetic Hand & Forarm - InMoov Project 
+//Part of TFG 3D Prostetic Hand & Forarm - InMoov Project
 
 //For information about Aoutecen EMG Muscle Sensor V3 board, manual and other resources, please visit:
 //https://www.tme.eu/Document/8732078ad54d82f6b49c5284341026b5/POLOLU-2726.pdf
