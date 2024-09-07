@@ -70,6 +70,7 @@ int angle = 0;  // Variable to store the angle of the servomotors
 
 //POSICION DE MANO VICTORIA/VICTORY : myservo1,myservo2,myservo5 ESCONDIDOS y myservo3 y myservo4 movimiento para posicion VICTORIA/VICTORY
 
+
 void setup() 
 { 
   // Attach each servomotor to a digital pin on the ESP32
@@ -86,7 +87,7 @@ void loop()
   // Move from 0 to 180 degrees with a positive angle of 1
   for(angle = 0; angle < 180; angle += 1)
   {                          
-    //myservo1.write(180 - angle);  // Move the first servo to the position 180 - angle, a temporary adjustment to fix the servo's reverse direction
+    //myservo1.write(angle);  // Move the first servo to the position 180 - angle, a temporary adjustment to fix the servo's reverse direction
     //myservo2.write(angle);        // Move the second servo to the position angle
     myservo3.write(angle);        // Move the third servo to the position angle
     myservo4.write(angle);        // Move the fourth servo to the position angle
@@ -100,11 +101,11 @@ void loop()
   // Move from 180 to 0 degrees with a negative angle of 5
   for(angle = 180; angle >= 1; angle -= 5)
   {                                
-    //myservo1.write(180 - angle);  // Move the first servo to the position 180 - angle
-    //myservo2.write(angle);        // Move the second servo to the position angle
+    myservo1.write(angle);  // Move the first servo to the position 180 - angle
+    myservo2.write(angle);        // Move the second servo to the position angle
     myservo3.write(angle);        // Move the third servo to the position angle
     myservo4.write(angle);        // Move the fourth servo to the position angle
-    //myservo5.write(angle);        // Move the fifth servo to the position angle
+    myservo5.write(angle);        // Move the fifth servo to the position angle
     //myservo6.write(180 - angle);  // Move the sixth servo to the position 180 - angle (IN TESTING)
     delay(5);                     // Wait 5 milliseconds to smooth the servo's movement
   } 
